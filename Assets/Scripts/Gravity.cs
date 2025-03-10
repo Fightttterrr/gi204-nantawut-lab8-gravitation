@@ -5,7 +5,7 @@ using UnityEngine;
 public class Gravity : MonoBehaviour
 {
     Rigidbody rb;
-    const float G = 0.0066667f;
+    const float G = 0.006674f;
     public static List<Gravity> planetLists;
 
     [SerializeField] bool planet = false;
